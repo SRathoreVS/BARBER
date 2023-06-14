@@ -8,7 +8,7 @@ body {
 }
 header {
   font-size: 25px;
-  font-family: cursive;
+  font-family: sans-serif;
   text-align: left;
   color: rgb(14, 11, 11);
 }
@@ -38,4 +38,15 @@ nav a:hover {
   color: rgb(26, 37, 72);
   font-size: medium;
   font-family: sans-serif;
+}
+.lists1 {
+  font-size: medium;
+  color: chartreuse;
+  text-decoration: solid;
+}
+.lists {
+  font-size: large;
+  color: blue;
+  text-decoration: solid underline;
+  text-align: left;
 }

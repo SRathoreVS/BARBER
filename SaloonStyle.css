@@ -1,15 +1,41 @@
-/* body { 
+body { 
   background-image: url('https://c0.wallpaperflare.com/preview/453/732/883/barber-barbershop-blurred-background-facial-expression.jpg');
-}*/
+  background-size: 55%;
+  width: 90%;
+  height: 100%;
+  background-blend-mode: luminosity;
+
+}
 header {
   font-size: 25px;
   font-family: cursive;
   text-align: left;
-  border: 4px;
-  color: darkmagenta;
+  color: rgb(14, 11, 11);
 }
 header h1 {
-  color: black;
+  color: rgb(94, 0, 0);
   text-decoration: underline solid 25px;
   text-align: center;
+}
+header nav {
+  font-size: medium;
+  font-family: cursive;
+  color: navy;
+  text-align: left;
+  text-decoration: solid; 
+}
+nav a:visited {
+  color: black;
+}
+nav a:hover {
+  color: red;
+  background-color: red;
+  cursor: pointer;
+}
+.about1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: rgb(26, 37, 72);
+  font-size: medium;
+  font-family: sans-serif;
 }

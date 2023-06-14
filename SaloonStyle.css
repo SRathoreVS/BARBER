@@ -1,0 +1,15 @@
+/* body { 
+  background-image: url('https://c0.wallpaperflare.com/preview/453/732/883/barber-barbershop-blurred-background-facial-expression.jpg');
+}*/
+header {
+  font-size: 25px;
+  font-family: cursive;
+  text-align: left;
+  border: 4px;
+  color: darkmagenta;
+}
+header h1 {
+  color: black;
+  text-decoration: underline solid 25px;
+  text-align: center;
+}

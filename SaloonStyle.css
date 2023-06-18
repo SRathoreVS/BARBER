@@ -1,8 +1,8 @@
 * {
   margin: 0 0;
 }
-body { 
-   background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149001486.jpg?w=996&t=st=1686930906~exp=1686931506~hmac=2ce1d377e463b7a0851a3a9ef1af00cf57de4307aa013f1f1ce6c63b11933d68');  
+body {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149001486.jpg?w=996&t=st=1686930906~exp=1686931506~hmac=2ce1d377e463b7a0851a3a9ef1af00cf57de4307aa013f1f1ce6c63b11933d68");
   background-size: 110%;
   width: 100%;
   height: 100%;
@@ -17,14 +17,22 @@ header h1 {
   color: rgb(94, 0, 0);
   text-decoration: underline solid 25px;
   text-align: center;
+  position: relative;
 }
+.img {
+  margin-top: 40px;
+  margin-left: 40px;
+  position: absolute;
+  top: auto;
+  /* left: auto; */
+}
+
 .mid_img {
   position: absolute;
   width: 400px;
-  height: 380px;
+  height: 350px;
   top: 20px;
   right: 20px;
-
 }
 header nav {
   font-size: medium;
@@ -32,37 +40,84 @@ header nav {
   color: navy;
   text-align: left;
   text-decoration: solid;
-  
+  margin: 30px 30px;
+  display: inline;
 }
 nav a:visited {
   color: black;
 }
 nav a:hover {
-  color: red;
-  background-color: red;
+  color: #c954cf;
+  background-color: #c954cf;
   cursor: pointer;
 }
+.about {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: auto auto;
+}
 .about1 {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.about2 {
   text-transform: uppercase;
   text-decoration: underline;
   color: rgb(26, 37, 72);
   font-size: medium;
   font-family: sans-serif;
+  text-align: center;
 }
 .lists {
-  font-size: large;
+  font-size: 30px;
   color: blue;
-  text-decoration: solid ;
-  text-align: left;
+  text-decoration: solid;
+  text-decoration: underline;
+  margin-left: 70%;
+  margin-top: 15px;
 }
 .lists1 {
-  font-size: medium;
-  color: rgb(70, 7, 7);
-  text-decoration: solid ;
+  font-size: 18px;
+  font: bolder;
+  color: rgb(117, 5, 5);
+  text-decoration: solid;
   position: relative;
+  margin-top: 10px;
+  margin-left: 70%;
+}
+.operate {
+  font-size: 30px;
+  color: blue;
+  text-decoration: solid;
+  text-decoration: underline;
+  margin-top: -440px;
+}
+.Branches {
+  margin: 10px 10px;
+  font-size: 20px;
+  color: rgb(73, 18, 135);
+  text-decoration: solid;
+  text-decoration: underline;
+}
+.Locations {
+  font-size: 18px;
+  font: bolder;
+  color: rgb(117, 5, 5);
+  text-decoration: solid;
+  margin-top: 10px;
 }
 #footer {
-  color: antiquewhite;
+  color: rgb(103, 25, 127);
   font-size: medium;
   font-weight: 100;
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  
 }
